@@ -1,0 +1,51 @@
+*{margin: 0; padding: 0;}
+
+body{
+font-size: 14px;
+background-color:#FF26C2;
+
+}
+p#home-paragrafo{
+    font-family: 'DotGothic16', sans-serif;
+    font-size:88px;
+    padding-top: 230px;
+    padding-left:30px;
+}
+.menu{
+font-family: 'Doppio One', sans-serif ;
+color:000000;
+list-style:none;
+float:left;
+background-color: #A2FF59;
+width: 100%;
+height: 33px;
+padding-top: 10px;
+padding-bottom: 13px;
+}
+.menu li{
+    position:relative;
+    float:left;
+    
+    }
+    .menu li a{color:#333; text-decoration:none; padding:5px 10px; display:block;}
+
+.menu li a:hover{
+background:rgb(37, 126, 66);
+color:rgb(112, 255, 91);}
+.menu li  ul{
+    
+    position:absolute;
+    top: 25px;
+    left:0;
+    background-color:rgb(65, 255, 65);
+    display:none;
+    }
+    .menu li:hover ul, .menu li.over ul{display:block;}
+    .menu li ul li{
+        display:block;
+        width:150px;
+        font-size: 14px;
+        }
+        
+        
+        
