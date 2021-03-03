@@ -2,50 +2,104 @@
 
 body{
 font-size: 14px;
-background-color:#FF26C2;
+background-color:rgb(175, 5, 241);
+
 
 }
 p#home-paragrafo{
     font-family: 'DotGothic16', sans-serif;
-    font-size:88px;
-    padding-top: 230px;
-    padding-left:30px;
+    font-size:500%;
+    padding-top: 10%;
+    padding-left:20%;
+    text-align:left;
 }
 .menu{
 font-family: 'Doppio One', sans-serif ;
 color:000000;
 list-style:none;
 float:left;
-background-color: #A2FF59;
 width: 100%;
 height: 33px;
 padding-top: 10px;
-padding-bottom: 13px;
+padding-bottom:13px;
+margin-right:80px;
+font-size: 18px;
 }
 .menu li{
     position:relative;
     float:left;
     
     }
-    .menu li a{color:#333; text-decoration:none; padding:5px 10px; display:block;}
+    .menu li a{color:rgb(255, 255, 255); text-decoration:none; padding:5px 10px; display:block;}
 
 .menu li a:hover{
-background:rgb(37, 126, 66);
-color:rgb(112, 255, 91);}
+background:rgb(175, 5, 241);
+color:rgb(19, 255, 38);}
 .menu li  ul{
     
     position:absolute;
-    top: 25px;
+    top: 30px;
     left:0;
-    background-color:rgb(65, 255, 65);
+    background-color:rgb(224, 224, 224);
     display:none;
+    font-size: 18px;
+
+    
     }
     .menu li:hover ul, .menu li.over ul{display:block;}
     .menu li ul li{
         display:block;
         width:150px;
         font-size: 14px;
+      
         }
+       .um{
+        background-color: #000000;
+        border-radius: 156px;
+        margin-left: 10px;
+        color: rgb(255, 255, 255);
+       }
+       .dois{
+           background-color: rgb(0, 0, 0);
+           border-radius: 156px;
+           margin-left: 10px;
+           color:rgb(255, 255, 255);
+       }
+       buttom{
+        padding-left: 20px;
+       }
+       .card {
+         
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        width: 200px;
+        height: 200px;
+      
+      
+      }
+      
+      .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      }
+      
+      .container {
+        padding: 2px 16px;
+      }
+      h4{
+        font-family:'Doppio One', sans-serif;
+        font-size: 75px;
+        align-self: center;
+        color: indigo;
         
+      }
+      .container.card  {
+        font-family:font-family:'Doppio One', sans-serif; 
+        padding-bottom: 70px;
         
-        
+      }
+      img{
+        display:box;
+        width: 43%;
+        margin-left: 300px;
+      }
+  
